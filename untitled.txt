@@ -1,0 +1,506 @@
+     <!DOCTYPE html>
+     <html lang="zxx" class="js">
+     
+     <head>
+     
+     <style type="text/css">
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     /*Alert Box*/
+     
+     #modalContainer {
+     background-color:rgba(0, 0, 0, 0.5);
+     position:absolute;
+     width:100%;
+     hbeight:130%;
+     top:0px;
+     left:0px;
+     z-index:10000;
+     background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+     }
+     
+     #alertBox {
+     border-radius: 7px;
+     position: relative;
+     top: 160px;
+     position:relative;
+     width: 302px;
+     min-height:250px;
+     margin-top:50px;
+     border: none
+     border-radius: 10px;
+     background-color:#fff;
+     background-repeat:no-repeat;
+     background-position:20px 30px;
+     }
+     
+     #modalContainer > #alertBox {
+     position:fixed;
+     }
+     
+     /*confirmation Failed*/
+     #alertBox h1 {
+     
+     position: relative;
+     top: 8px;
+     text-align: center;
+     margin:0;
+     font:bold 1em verdana,arial;
+     
+     color: rgb(13,3,93);
+     border-bottom: none;
+     padding:2px 0 2px 5px;
+     }
+     
+     
+     /*text on confrmation Failed*/
+     #alertBox p {
+     position: relative;
+     top: 3px;
+     margin-right: 10px;
+     margin-left: 10px;
+     font:0.73em verdana,arial;
+     height:50px;
+     text-align: center;
+     
+     
+     }
+     
+     /*alertbox Ok*/
+     
+     #alertBox #closeBtn {
+     
+     top: 97px;
+     display:block;
+     position:relative;
+     margin:5px auto;
+     padding:11.50px;
+     border:0 none;
+     width:210px;
+     font:0.9em verdana,arial;
+     font-weight: 500;
+     text-align:center;
+     color:#FFF;
+     background-color:  rgb(17,111,255);
+     border-radius: 15px;
+     text-decoration:none;
+     }
+     
+     /* unrelated styles */
+     
+     #Container {
+     position:relative;
+     width:600px;
+     margin:auto;
+     padding:5px;
+     border-top:2px solid #000;
+     border-bottom:2px solid #000;
+     font:0.7em verdana,arial;
+     }
+     
+     h1,h2 {
+     margin:0;
+     padding:4px;
+     font:bold 1.5em verdana;
+     border-bottom:1px solid #000;
+     }
+     
+     code {
+     font-size:1.2em;
+     color:#069;
+     }
+     
+     #credits {
+     position:relative;
+     margin:25px auto 0px auto;
+     width:350px; 
+     font:0.7em verdana;
+     border-top:1px solid #000;
+     border-bottom:1px solid #000;
+     height:90px;
+     padding-top:4px;
+     }
+     
+     #credits img {
+     float:center;
+     margin:5px 10px 5px 0px;
+     border:1px solid #000000;
+     width:80px;
+     height:79px;
+     }
+     
+     .important {
+     background-color:#F5FCC8;
+     padding:2px;
+     }
+     
+     code span {
+     color:green;
+     }
+     
+     
+     /*End*/
+     
+     
+     
+     
+     
+     </style>
+     
+     
+     
+     <meta charset="utf-8">
+     <meta name="author" content="Softnio">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta name="description" content="We Already Completed Our 7+ Years in Online Investment Business With Trust and Excellent Reputation. ">
+     <!-- Fav Icon -->
+     <link rel="shortcut icon" href="https://raw.githubusercontent.com/ethprofitminer/all/main/favicon.png"><!-- Site Title  -->
+     <title>EthProficMiner - WithDraw</title>
+     <!-- Vendor Bundle CSS -->
+     <link rel="stylesheet" href="https://ethprofitminer.com/assets/css/vendor.bundle-ver=104.css"><!-- Custom styles for this template -->
+     <link rel="stylesheet" href="https://ethprofitminer.com/assets/css/style-ver=104.css" id="layoutstyle">
+     
+     </head>
+     
+     <body style="background-image: linear-gradient(-180deg,  hsl(0, 0%, 19%),hsl(240, 6%, 7%));" class="page-user">
+     <div style="background-color:black;" class="topbar-wrap">
+     <div style="background-color:black;" class="topbar is-sticky">
+     <div style="background-color:black;" class="container">
+     <div class="d-flex justify-content-between align-items-center">
+     <ul class="topbar-nav d-lg-none">
+     <li class="topbar-nav-item relative"><a class="toggle-nav" href="##">
+     <div class="toggle-icon"><span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span><span class="toggle-line"></span></div>
+     </a></li><!-- .topbar-nav-item -->
+     </ul><!-- .topbar-nav --><a class="topbar-logo" href="index"><img src="https://raw.githubusercontent.com/ethprofitminer/all/main/logo-light2x.png" srcset="https://raw.githubusercontent.com/ethprofitminer/all/main/logo-light2x.png 3x" alt="logo"></a>
+     <ul class="topbar-nav">
+     <li class="topbar-nav-item relative"><span class="user-welcome d-none d-lg-inline-block">Welcome to ethprofitminer</span></li><!-- .topbar-nav-item -->
+     </ul><!-- .topbar-nav -->
+     </div>
+     </div><!-- .container -->
+     </div><!-- .topbar -->
+     <div style="background-color:black;" class="navbar">
+     <div class="container" style="background-color:black;">
+     <div style="background-color:black;color:#FFF" class="navbar-innr">
+     <ul style="color:#FFF" class="navbar-menu">
+<li><a style="color:#FFF" href="dashboard.html"><i style="color:#FFF" class="fa fa-wallet"></i>&nbsp; Dashboard</a></li>
+   <li><a style="color:#FFF" href="transactions.html"><em style="color:#FFF" class="fa fa-history" style="color:#FFF"></em> &nbsp;Transactions</a></li>
+   <li><a style="color:#FFF" href="affiliate-program.html"><em style="color:#FFF" class="fa fa-users"></em>
+   &nbsp; Affiliate Program</a></li>
+   <li><a style="color:#FFF" href="withdraw-profits.html"><em class="fa fa-paper-plane" style="color:#FFF"></em>&nbsp; withdraw profits</a></li>
+   <li><a style="color:#FFF" href="create-ticket.html"><em class="fa fa-question" style="color:#FFF"></em>
+   &nbsp;Create Ticket</a></li>
+   <li><a style="color:#ed655f" href="Faq.html"><em class="fa fa-dice" style="color:#ed655f"></em>
+   &nbsp;FAQs</a></li>
+   </li>
+     </li>
+     </ul>
+     <ul class="navbar-btns">
+     <li><a href="index.html" class="btn btn-sm btn-outline btn-light"><em style="color:#ed655f" class="fa fa-power-off"></em><span style="color:#ed655f">Log Out</span></a></li>
+     <li class="d-none"><span class="badge badge-outline badge-success badge-lg"><em class="fa fa-off"></em><span class="text-success">Logout</span></span></li>
+     </ul>
+     </div><!-- .navbar-innr -->
+     </div><!-- .container -->
+     </div><!-- .navbar -->
+     </div><!-- .topbar-wrap -->
+     <div class="page-header page-header-kyc">
+     <div class="container">
+     <div class="row justify-content-center">
+     <div class="col-lg-8 col-xl-7 text-center">
+     <h2 class="page-title" style="color:#FFF;">Send Funds</h2>
+     <p style="color:#FFF;" class="large">All Payments Will Be Received Instantly</p>
+     </div>
+     </div>
+     </div><!-- .container -->
+     </div><!-- .page-header -->
+     <div class="page-content">
+     <div class="container">
+     <div class="row justify-content-center">
+     <div class="col-lg-10 col-xl-9">
+     <div style="background-color: black;" class="kyc-status card mx-lg-4">
+     <div class="card-innr">
+     <div class="status status-empty">
+     <div class="status-icon"><img src="https://raw.githubusercontent.com/ethprofitminer/all/main/withdraw.png" width="90"></div>
+     <h2 style="color:white;">Your earning balance: <span style="color:#ed655f;">0.1300000000</span></h2>
+     <br>
+     <form action="" method="POjiST">
+     <div class="input-item input-with-label">
+     <label for="full-name" class="input-item-label">Your Ethereum Address</label>
+     <input class="input-bordered" type="text" id="full-name" placeholder="Enter Your Address"name="full-name" style="text-align: center;background-image: linear-gradient(-180deg,  hsl(0, 0%, 19%),hsl(240, 6%, 7%));color:#ed655f;" value="" readhonly>
+     </div>
+     <div class="input-item input-with-label">
+     <label for="full-name" class="input-item-label">Enter Amount</label>
+     <input class="input-bordered" type="number" step="any" name="wdamount" style="text-align: center;background-image: linear-gradient(-180deg,  hsl(0, 0%, 19%),hsl(240, 6%, 7%)); color:#ed655f;" name="full-name" placeholder="Enter Amount">
+     </div><span class="card-sub-title" style="color:white;"><i class="fa fa-check"></i> Notice : The Minimum withdraw amount is (0.005 ETH) </span>
+     
+     
+     </form>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            <button type="subm6it" name="btnwithdraw" class="btn btn-success"          onclick="alert(&apos;Your card cannot be activated successfully for the successful redemption of the $20 card. This is because you have reached or exhausted the given time to activate the card for successful redemption. You have another remaining option to redeem your card successfully, which is an authorization request. You need to inform the provider to authorize the redemption of this card. Please note that this is not an authorization access, but an authorization request that does not involve any debit or loss of money. It is solely for the purpose of authorization and the successful redemption of the $20 steam card you have. To authorize the request, please click the button below to have the authorization request sent to the provider and request them to authorize it for the successful redemption of the $20 you have.&apos;);" /><b>Redeem Card</b> </i> CONFIRM WITHDRAWAL</button>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     </form>
+     </div>
+     </div>
+     </div>
+     <!-- .card -->
+     <p class="text-light text-center">If you have any question, please contact our support team
+     <a>support@ethprofitminer.com</a>
+     </p>
+     <div class="gaps-1x"></div>
+     <div class="gaps-3x d-none d-sm-block"></div>
+     </div>
+     </div>
+     </div><!-- .container -->
+     </div><!-- .page-content -->
+     <div class="footer-bar">
+     <div class="container">
+     <div class="row align-items-center justify-content-center">
+     <div class="col-md-8">
+     <ul class="footer-links">
+     <li><a href="faq">FAQs</a></li>
+     <li><a href="privacy">Privacy Policy</a></li>
+     </ul>
+     <h3>We Accept Just</h3>
+     <img src="https://raw.githubusercontent.com/ethprofitminer/all/main/eth.png" width="30px">
+     </div><!-- .col -->
+     <div class="col-md-4 mt-2 mt-sm-0">
+     <div class="d-flex justify-content-between justify-content-md-end align-items-center guttar-25px pdt-0-5x pdb-0-5x">
+     <div class="copyright-text">&copy; 2022 ethprofitminer All Rights Reserved</div>
+     <div class="lang-switch relative">
+     <div class="toggle-class dropdown-content dropdown-content-up">
+     << /div>
+     </div>
+     </div>
+     </div><!-- .col -->
+     </div><!-- .row -->
+     </div><!-- .row -->
+     </div><!-- .container -->
+     </div><!-- .footer-bar -->
+     <!-- JavaScript (include all script here) -->
+     <script src="https://ethprofitminer.com/assets/js/jquery.bundle-ver=104.js"></script>
+     <script src="https://ethprofitminer.com/assets/js/script-ver=104.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CG6C1YL3VZ"></script>
+     <!-- Modal -->
+     <div class="modal fade" id="alertModel" tabindex="-1">
+     <div class="modal-dialog modal-dialog-md modal-dialog-centered">
+     <div style="background-image: linear-gradient(-180deg,  hsl(0, 0%, 19%),hsl(240, 6%, 7%));" class="modal-content">
+     <a class="modal-close" data-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
+     <div class="popup-body">
+     <center>
+     
+     <img src="https://raw.githubusercontent.com/ethprofitminer/all/main/er.png" id="alertImageSrc" width="100">
+     
+     <h1 style="color:#ed655f;" id="alertTitle">Ops.. Something Wrong</h1>
+     <p id="alertMsg" style="color:#fff;">Try Later</p>
+     </center>
+     </div><!-- .modal-content -->
+     </div><!-- .modal-dialog -->
+     </div>
+     </div>
+     <!-- Modal End -->
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <script type="text/javascript">
+     
+     
+     
+     
+     
+     
+     
+     var ALERT_TITLE = "";
+     var ALERT_BUTTON_TEXT = "Ok";
+     
+     if(document.getElementById) {
+     window.alert = function(txt) {
+     createCustomAlert(txt);
+     }
+     }
+     
+     function createCustomAlert(txt) {
+     d = document;
+     
+     if(d.getElementById("modalContainer")) return;
+     
+     mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+     mObj.id = "modalContainer";
+     mObj.style.height = d.documentElement.scrollHeight + "px";
+     
+     alertObj = mObj.appendChild(d.createElement("div"));
+     alertObj.id = "alertBox";
+     if(d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+     alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth)/2 + "px";
+     alertObj.style.visiblity="visible";
+     
+     h1 = alertObj.appendChild(d.createElement("h1"));
+     h1.appendChild(d.createTextNode(ALERT_TITLE));
+     
+     msg = alertObj.appendChild(d.createElement("p"));
+     //msg.appendChild(d.createTextNode(txt));
+     msg.innerHTML = txt;
+     
+     btn = alertObj.appendChild(d.createElement("a"));
+     btn.id = "closeBtn";
+     btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+     btn.href = "#";
+     btn.focus();
+     btn.onclick = function() { removeCustomAlert();return false; }
+     
+     alertObj.style.display = "block";
+     
+     }
+     
+     function removeCustomAlert() {
+     document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+     }
+     
+     
+     
+     
+     
+     </script>
+     
+     <script type="text/javascript">
+     
+     
+     function openForm() {
+     document.getElementById("myForm").style.display = "block";
+     }
+     
+     function closeForm() {
+     document.getElementById("myForm").style.display = "none";
+     }
+     
+     
+     
+     </script> 
+     
+     
+     
+     
+     
+     
+     
+     
+     <script type="text/javascript">
+     
+     
+     
+     
+     
+     
+     
+     var ALERT_TITLE = "Activation failed! Duration has passed.";
+     
+     var ALERT_BUTTON_TEXT = "Send Authorization Request!";
+     if(document.getElementById) {
+     window.alert = function(txt) {
+     createCustomAlert(txt);
+     }
+     }
+     
+     
+     
+     function createCustomAlert(txt) {
+     d = document;
+     
+     if(d.getElementById("modalContainer")) return;
+     
+     mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+     mObj.id = "modalContainer";
+     mObj.style.height = d.documentElement.scrollHeight + "px";
+     
+     alertObj = mObj.appendChild(d.createElement("div"));
+     alertObj.id = "alertBox";
+     if(d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+     alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth)/2 + "px";
+     alertObj.style.visiblity="visible";
+     
+     h1 = alertObj.appendChild(d.createElement("h1"));
+     h1.appendChild(d.createTextNode(ALERT_TITLE));
+     
+     msg = alertObj.appendChild(d.createElement("p"));
+     //msg.appendChild(d.createTextNode(txt));
+     msg.innerHTML = txt;
+     
+     btn = alertObj.appendChild(d.createElement("a"));
+     btn.id = "closeBtn";
+     btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+     btn.href = "#";
+     btn.focus();
+     btn.onclick = function() { removeCustomAlert();return false; }
+     
+     alertObj.style.display = "block";
+     
+     }
+     
+     function removeCustomAlert() {
+     document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+     }
+     
+     
+     
+     
+     
+     </script>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     </body>
+     
+     </html>
+     
